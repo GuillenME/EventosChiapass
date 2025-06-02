@@ -9,155 +9,164 @@
 /* Importación de la fuente Inter de Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
 
-/* Estilos generales para el cuerpo de la página */
+/* Estilos generales */
 body {
-    font-family: 'Inter', sans-serif; /* Fuente principal */
-    margin: 0; /* Elimina el margen predeterminado del body */
-    padding: 0; /* Elimina el padding predeterminado del body */
-    background-color: #f4f7f6; /* Color de fondo suave */
-    color: #333; /* Color de texto principal */
-    line-height: 1.6; /* Altura de línea para mejor legibilidad */
-    display: flex; /* Usa flexbox para el layout principal */
-    flex-direction: column; /* Organiza los elementos en columna */
-    min-height: 100vh; /* Asegura que el body ocupe al menos el 100% del viewport height */
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-/* Estilos para el encabezado */
+/* Encabezado */
 header {
-    background-color: #2c3e50; /* Color de fondo oscuro para el encabezado */
-    color: #ecf0f1; /* Color de texto claro */
-    padding: 1.5rem 1rem; /* Padding superior/inferior y lateral */
-    text-align: center; /* Centra el texto */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-    border-bottom-left-radius: 10px; /* Bordes redondeados inferiores */
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
 header h1 {
-    margin: 0; /* Elimina el margen del título */
-    font-size: 2.5rem; /* Tamaño de fuente del título */
-    font-weight: 700; /* Peso de fuente negrita */
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 
-/* Estilos para la navegación */
+/* Navegación */
 nav ul {
-    list-style: none; /* Elimina los puntos de la lista */
-    padding: 0; /* Elimina el padding de la lista */
-    margin: 1rem 0 0 0; /* Margen superior para separar del título */
-    display: flex; /* Usa flexbox para los elementos de la lista */
-    justify-content: center; /* Centra los elementos horizontalmente */
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 nav ul li {
-    margin: 0 15px; /* Margen entre los elementos de la lista */
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: #ecf0f1; /* Color de texto de los enlaces */
-    text-decoration: none; /* Elimina el subrayado de los enlaces */
-    font-weight: 600; /* Peso de fuente seminegrita */
-    padding: 0.5rem 1rem; /* Padding para hacer los enlaces más clickables */
-    border-radius: 5px; /* Bordes redondeados */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave al pasar el ratón */
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 nav ul li a:hover,
 nav ul li a.active {
-    background-color: #34495e; /* Color de fondo al pasar el ratón o si está activo */
-    color: #ffffff; /* Color de texto al pasar el ratón o si está activo */
+    background-color: #34495e;
+    color: #ffffff;
 }
 
-/* Estilos para el contenido principal */
+/* Contenido principal */
 main {
-    flex-grow: 1; /* Permite que el main ocupe el espacio restante */
-    padding: 2rem 1rem; /* Padding general para el contenido */
-    max-width: 1200px; /* Ancho máximo del contenido */
-    margin: 20px auto; /* Centra el contenido y añade margen superior/inferior */
-    background-color: #ffffff; /* Fondo blanco para el contenido */
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Sombra más pronunciada */
+    flex-grow: 1;
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
-/* Estilos para las secciones dentro del main */
+/* Secciones */
 section {
-    margin-bottom: 2rem; /* Margen inferior para separar secciones */
-    padding: 1.5rem; /* Padding interno para las secciones */
-    background-color: #fdfdfd; /* Fondo ligeramente diferente para las secciones */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03); /* Sombra muy sutil */
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #fdfdfd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
 }
 
 section h2 {
-    color: #2c3e50; /* Color del título de sección */
-    font-size: 2rem; /* Tamaño de fuente del título de sección */
-    margin-top: 0; /* Elimina el margen superior */
-    margin-bottom: 1.5rem; /* Margen inferior */
-    text-align: center; /* Centra el título */
-    border-bottom: 2px solid #3498db; /* Línea decorativa debajo del título */
-    padding-bottom: 0.5rem; /* Padding para la línea */
-    display: inline-block; /* Para que la línea se ajuste al ancho del texto */
-    width: auto; /* Ancho automático */
+    color: #2c3e50;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+    width: auto;
 }
 
-/* Estilos específicos para los ítems de eventos */
+/* Ítems de evento */
 .event-item {
-    background-color: #ecf0f1; /* Color de fondo para cada evento */
-    padding: 1.5rem; /* Padding interno */
-    margin-bottom: 1.5rem; /* Margen inferior entre eventos */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08); /* Sombra para los ítems de evento */
-    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Transición al pasar el ratón */
+    background-color: #ecf0f1;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .event-item:hover {
-    transform: translateY(-5px); /* Efecto de elevación al pasar el ratón */
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada al pasar el ratón */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
 .event-item h3 {
-    color: #3498db; /* Color del título del evento */
-    margin-top: 0; /* Elimina el margen superior */
-    margin-bottom: 0.8rem; /* Margen inferior */
-    font-size: 1.6rem; /* Tamaño de fuente del título del evento */
+    color: #3498db;
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+    font-size: 1.6rem;
 }
 
 .event-item p {
-    margin-bottom: 0.5rem; /* Margen inferior para los párrafos */
-    color: #555; /* Color de texto más suave */
+    margin-bottom: 0.5rem;
+    color: #555;
 }
 
 .event-item p strong {
-    color: #2c3e50; /* Color más oscuro para el texto en negrita */
+    color: #2c3e50;
 }
 
-/* Estilos para el pie de página */
+/* Pie de página */
 footer {
-    background-color: #2c3e50; /* Color de fondo oscuro para el pie de página */
-    color: #ecf0f1; /* Color de texto claro */
-    text-align: center; /* Centra el texto */
-    padding: 1.5rem 1rem; /* Padding */
-    margin-top: auto; /* Empuja el footer hacia abajo */
-    border-top-left-radius: 10px; /* Bordes redondeados superiores */
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: auto;
+    border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
 
 footer p {
-    margin: 0; /* Elimina el margen del párrafo */
-    font-size: 0.9rem; /* Tamaño de fuente más pequeño */
+    margin: 0;
+    font-size: 0.9rem;
 }
 
-/* Estilos para formularios (aplicables a contacto.html) */
+/* Formulario de contacto */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+    gap: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
 .form-group {
-    margin-bottom: 1.5rem; /* Margen inferior entre grupos de formulario */
+    margin-bottom: 1.5rem;
 }
 
 .form-group label {
-    display: block; /* Hace que la etiqueta ocupe su propia línea */
-    margin-bottom: 0.5rem; /* Margen inferior para la etiqueta */
-    color: #2c3e50; /* Color de texto de la etiqueta */
-    font-weight: 600; /* Peso de fuente seminegrita */
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+    font-weight: 600;
 }
 
 .form-group input[type="text"],
@@ -198,91 +207,63 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #2980b9; /* Color de fondo al pasar el ratón */
-    transform: translateY(-2px); /* Efecto de elevación sutil */
+    background-color: #2980b9;
+    transform: translateY(-2px);
 }
 
-/* Estilos responsivos */
+/* Responsivo */
 @media (max-width: 768px) {
     header h1 {
-        font-size: 2rem; /* Reduce el tamaño del título en pantallas pequeñas */
+        font-size: 2rem;
     }
 
     nav ul {
-        flex-direction: column; /* Apila los elementos de navegación verticalmente */
-        align-items: center; /* Centra los elementos apilados */
+        flex-direction: column;
+        align-items: center;
     }
 
     nav ul li {
-        margin: 10px 0; /* Espacio vertical entre los elementos de navegación */
+        margin: 10px 0;
     }
 
     main {
-        padding: 1.5rem 0.8rem; /* Reduce el padding del main */
-        margin: 15px auto; /* Ajusta el margen */
+        padding: 1.5rem 0.8rem;
+        margin: 15px auto;
     }
 
     section h2 {
-        font-size: 1.8rem; /* Reduce el tamaño del título de sección */
+        font-size: 1.8rem;
     }
 
     .event-item {
-        padding: 1rem; /* Reduce el padding de los ítems de evento */
+        padding: 1rem;
     }
 
     .event-item h3 {
-        font-size: 1.4rem; /* Reduce el tamaño del título del evento */
+        font-size: 1.4rem;
     }
 }
 
 @media (max-width: 480px) {
     header {
-        padding: 1rem 0.5rem; /* Más reducción de padding en el encabezado */
+        padding: 1rem 0.5rem;
     }
 
     header h1 {
-        font-size: 1.8rem; /* Más reducción del tamaño del título */
+        font-size: 1.8rem;
     }
 
     main {
-        padding: 1rem 0.5rem; /* Más reducción de padding en el main */
-        margin: 10px auto; /* Más ajuste de margen */
+        padding: 1rem 0.5rem;
+        margin: 10px auto;
     }
 
     section h2 {
-        font-size: 1.6rem; /* Más reducción del tamaño del título de sección */
+        font-size: 1.6rem;
     }
 
     button[type="submit"] {
-        width: 100%; /* Botón de submit ocupa todo el ancho */
-        padding: 10px 20px; /* Ajusta el padding del botón */
+        width: 100%;
+        padding: 10px 20px;
     }
-}
-/* Estilos para el formulario de contacto */
-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 400px;
-  margin: 20px auto;
-  gap: 10px;
-  font-family: Arial, sans-serif;
-}
-
-input, textarea {
-  padding: 8px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-
-button {
-  background-color: #008CBA;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #005f73;
 }
