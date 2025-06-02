@@ -5,7 +5,7 @@ Este proyecto consiste en el desarrollo de un sitio web estático para la agenci
 
 Participantes
 - Mariana Eurice Guillen Navarro - Encargada de la vista del módulo de contacto
-
+- Froilan Najera Morales - Encargado de la vista del modulo de eventos
 
 Objetivo
 Aplicar buenas prácticas de trabajo colaborativo y control de versiones usando Git y GitHub, desarrollando un sitio web y publicándolo con GitHub Pages.
@@ -18,9 +18,9 @@ Tecnologías utilizadas
 - GitHub Pages
 
 Coevaluación del equipo
-| Integrante     | Participación (%) |
-|----------------|------------------|
+| Integrante                      | Participación (%) |
+|---------------------------------|-------------------|
 | Mariana Eurice Guillen Navarro  | 100%              |
 | Froilan Najera Morales          | 100%              |
 | Hugo Ruben Díaz Cruz            | 100%              |
-| José Alejandro Díaz Gómez       | 100%    s          |
+| José Alejandro Díaz Gómez       | 100%              |
