@@ -8,6 +8,7 @@ Participantes
 - Froilan Najera Morales - Encargado de la vista del modulo de eventos
 - Hugo Ruben Díaz Cruz - Encargado de la vista de inicio
 
+
 Objetivo
 Aplicar buenas prácticas de trabajo colaborativo y control de versiones usando Git y GitHub, desarrollando un sitio web y publicándolo con GitHub Pages.
 
