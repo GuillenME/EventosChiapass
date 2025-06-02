@@ -18,9 +18,9 @@ Tecnologías utilizadas
 - GitHub Pages
 
 Coevaluación del equipo
-| Integrante     | Participación (%) |
-|----------------|------------------|
+| Integrante                      | Participación (%) |
+|---------------------------------|-------------------|
 | Mariana Eurice Guillen Navarro  | 100%              |
 | Froilan Najera Morales          | 100%              |
 | Hugo Ruben Díaz Cruz            | 100%              |
-| José Alejandro Díaz Gómez       | 100%    s          |
+| José Alejandro Díaz Gómez       | 100%              |
