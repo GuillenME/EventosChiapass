@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #f4f4f9;
+  background-color: #f5f8fa;
   color: #333;
   line-height: 1.6;
   padding: 20px;
@@ -15,17 +15,17 @@ body {
 
 /* Encabezado */
 header {
-  background-color: #2c3e50;
-  color: #fff;
+  background-color: #34495e;
+  color: white;
   padding: 20px 0;
   text-align: center;
   margin-bottom: 40px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
+  font-size: 2.2em;
   margin-bottom: 10px;
-  font-size: 2em;
 }
 
 nav ul {
@@ -46,12 +46,54 @@ nav ul li a:hover {
   color: #1abc9c;
 }
 
-/* Título de contacto */
-h2 {
+/* Sección principal */
+main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+#welcome h1,
+#eventos h2 {
   text-align: center;
-  margin-bottom: 20px;
   font-size: 2em;
-  color: #34495e;
+  color: #2c3e50;
+  margin-bottom: 25px;
+}
+
+/* Tarjetas de evento */
+.event-item {
+  background-color: white;
+  padding: 25px;
+  border-left: 6px solid #1abc9c;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.event-item:hover {
+  transform: scale(1.02);
+}
+
+.event-item h3 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.event-item p {
+  font-size: 1.1em;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+/* Imágenes */
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
 /* Formulario de contacto */
@@ -61,7 +103,7 @@ form {
   padding: 30px;
   margin: 0 auto;
   border-radius: 8px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
 }
 
 form label {
@@ -105,12 +147,20 @@ form button:hover {
   background-color: #16a085;
 }
 
+/* Título de contacto */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #34495e;
+}
+
 /* Pie de página */
 footer {
   text-align: center;
   padding: 20px;
-  margin-top: 40px;
-  background-color: #2c3e50;
+  margin-top: 60px;
+  background-color: #34495e;
   color: white;
   font-size: 0.9em;
 }
