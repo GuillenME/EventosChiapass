@@ -7,6 +7,7 @@ Participantes
 - Mariana Eurice Guillen Navarro - Encargada de la vista del módulo de contacto
 - Froilan Najera Morales - Encargado de la vista del modulo de eventos
 - Hugo Ruben Díaz Cruz - Encargado de la vista de inicio
+- José Alejandro Díaz Gómez -  Encargado de darle diseño a los interfaces.
 
 
 Objetivo
