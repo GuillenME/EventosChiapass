@@ -1,26 +1,26 @@
-Sitio Web - Eventos Chiapas
+# Sitio Web - Eventos Chiapas
 
-Descripción:
+## Descripción:
 Este proyecto consiste en el desarrollo de un sitio web estático para la agencia local "Eventos Chiapas", como parte de la práctica de la materia *Administración de Proyectos de TI*.
 
-Participantes
+## Participantes
 - Mariana Eurice Guillen Navarro - Encargada de la vista del módulo de contacto
 - Froilan Najera Morales - Encargado de la vista del modulo de eventos
 - Hugo Ruben Díaz Cruz - Encargado de la vista de inicio
-- José Alejandro Díaz Gómez -  Encargado de darle diseño a los interfaces.
+- José Alejandro Díaz Gómez -  Encargado de darle diseño a las interfaces.
 
 
-Objetivo
+## Objetivo
 Aplicar buenas prácticas de trabajo colaborativo y control de versiones usando Git y GitHub, desarrollando un sitio web y publicándolo con GitHub Pages.
 
-Tecnologías utilizadas
+## Tecnologías utilizadas
 - HTML5
 - CSS3
 - JavaScript
 - Git y GitHub
 - GitHub Pages
 
-Coevaluación del equipo
+## Coevaluación del equipo
 | Integrante                      | Participación (%) |
 |---------------------------------|-------------------|
 | Mariana Eurice Guillen Navarro  | 100%              |
